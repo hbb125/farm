@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBAAmB,8BACnB,sBACA,qI,mDACAA,EAAWC,a","file":"pages/actionSheet/actionSheet.js","sourcesContent":["import 'uni-pages';import '@dcloudio/uni-stat';\nimport Vue from 'vue'\nimport Page from './pages/actionSheet/actionSheet.vue'\ncreatePage(Page)"],"sourceRoot":""}

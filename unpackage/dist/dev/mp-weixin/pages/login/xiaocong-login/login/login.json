@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "请登录",
+  "backgroundColor": "#eee",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

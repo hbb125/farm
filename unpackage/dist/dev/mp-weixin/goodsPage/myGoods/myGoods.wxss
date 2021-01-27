@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 字体 */
+/* 自定义边框圆角 */
+.btn.data-v-5d917edd {
+  height: 88rpx;
+  line-height: 88rpx;
+  color: #fff;
+  margin-top: 60rpx;
+  background-image: -webkit-linear-gradient(left, #84db69, #305cbf);
+  background-image: linear-gradient(to right, #84db69, #305cbf);
+}
+.save-btn.data-v-5d917edd {
+  line-height: 88rpx;
+  margin-top: 60rpx;
+  color: #fff;
+  border-radius: 44rpx;
+  background-image: -webkit-linear-gradient(left, #84db69, #305cbf);
+  background-image: linear-gradient(to right, #84db69, #305cbf);
+}
+.color-main.data-v-5d917edd {
+  color: #84db69;
+}
+.safearea-bottom.data-v-5d917edd {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.model.data-v-5d917edd {
+  position: fixed;
+  top: 300rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 80%;
+  height: 500rpx;
+  z-index: 999;
+  background-color: #fff;
+}
+.model .m_top.data-v-5d917edd {
+  text-align: center;
+  font-size: 30rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #eee;
+}
+.model .m_price.data-v-5d917edd {
+  padding-left: 40rpx;
+}
+.model .m_price text.data-v-5d917edd {
+  font-size: 30rpx;
+  display: inline-block;
+  margin-top: 50rpx;
+}
+.model .m_price input.data-v-5d917edd {
+  font-style: 50rpx;
+  margin-top: 20rpx;
+  width: 90%;
+  height: 80rpx;
+  padding-left: 20rpx;
+  background-color: #E5E5E5;
+}
+.model .m_btn.data-v-5d917edd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.model .m_btn button.data-v-5d917edd {
+  width: 35%;
+  height: 100rpx;
+  margin-top: 70rpx;
+}
+.bottom.data-v-5d917edd {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 330rpx;
+  background-color: #EEEEEE;
+}
+.bottom button.data-v-5d917edd {
+  margin-top: 20rpx;
+}
+.bottom button.data-v-5d917edd:nth-child(2) {
+  color: red;
+}
+.my-goods-page .placeholder-h.data-v-5d917edd {
+  height: 95rpx;
+  margin-bottom: 20rpx;
+}
+.my-goods-page .header.data-v-5d917edd {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 95rpx;
+  padding: 0 30rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: #fff;
+  z-index: 9999;
+}
+.my-goods-page .header .h-l.data-v-5d917edd,
+.my-goods-page .header .h-r.data-v-5d917edd {
+  font-size: 32rpx;
+  color: #666;
+}
+.my-goods-page .header .h-r.data-v-5d917edd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+          align-items: end;
+}
+.my-goods-page .header .h-r .icon.data-v-5d917edd {
+  margin-right: 4rpx;
+  margin-top: 2rpx;
+}
+.my-goods-page .loading-text.data-v-5d917edd {
+  line-height: 100rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+}
+

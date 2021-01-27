@@ -1,0 +1,46 @@
+view,
+navigator,
+textarea,
+scroll-view{
+	box-sizing: border-box;
+}
+
+button::after {
+	border: none;
+}
+
+image {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+/*单行溢出*/
+.txt-cut {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/*多行溢出 手机端使用*/
+.two-txt-cut {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/*多行溢出 手机端使用*/
+.three-txt-cut {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

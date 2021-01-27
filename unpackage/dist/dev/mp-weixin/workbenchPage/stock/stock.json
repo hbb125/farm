@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "商品进货",
+  "backgroundColor": "#eee",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "combox-list": "/components/combox-list/combox-list",
+    "g-upload": "/components/g-upload/g-upload",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-combox": "/components/uni-combox/uni-combox"
+  }
+}

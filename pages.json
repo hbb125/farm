@@ -1,0 +1,266 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "菜商宝",
+			"enablePullDownRefresh": true,
+			"backgroundColorBottom": "#4fab3d"
+		}
+	}, {
+		"path": "pages/workbench/workbench",
+		"style": {
+			"navigationBarTitleText": "工作台",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/steelyard/steelyard",
+		"style": {
+			"navigationBarTitleText": "秤宝王",
+			"enablePullDownRefresh": false
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/login/xiaocong-login/login/login",
+		"style": {
+			"navigationBarTitleText": "请登录",
+			"backgroundColor": "#eee",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/login/xiaocong-login/forget/forget",
+		"style": {
+			"navigationBarTitleText": "忘记密码",
+			"backgroundColor": "#eee",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/login/xiaocong-login/register/register",
+		"style": {
+			"navigationBarTitleText": "注册",
+			"backgroundColor": "#eee",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"subPackages": [{
+		"root": "goodsPage",
+		"pages": [{
+			"path": "myGoods/myGoods",
+			"style": {
+				"navigationBarTitleText": "上架商品列表",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "goodsLibrary/goodsLibrary",
+			"style": {
+				"navigationBarTitleText": "我的库存",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": false
+
+			}
+
+		}]
+	}, {
+		"root": "myPage",
+		"pages": [{
+			"path": "modifyMobile/modifyMobile",
+			"style": {
+				"navigationBarTitleText": "修改手机",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "aboutUs/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "grant/grant",
+			"style": {
+				"navigationBarTitleText": "子账户授权",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "modifyPwd/modifyPwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "message/message",
+			"style": {
+				"navigationBarTitleText": "我的消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "message/messageDetail",
+			"style": {
+				"navigationBarTitleText": "通知详情",
+				"enablePullDownRefresh": false
+			}
+		}]
+	}, {
+		"root": "personalPage",
+		"pages": [{
+			"path": "personalInfo/personalInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "complaint/complaint",
+			"style": {
+				"navigationBarTitleText": "投诉处理",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "complaint/complaintDetail",
+			"style": {
+				"navigationBarTitleText": "投诉详情",
+				"enablePullDownRefresh": false
+			}
+		}]
+	}, {
+		"root": "workbenchPage",
+		"pages": [{
+			"path": "healthCode/healthCode",
+			"style": {
+				"navigationBarTitleText": "健康码",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "promotion/promotion",
+			"style": {
+				"navigationBarTitleText": "我的合同",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "payment/payment",
+			"style": {
+
+				"navigationBarTitleText": "支付方式",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "payment/zfb",
+			"style": {
+
+				"navigationBarTitleText": "支付宝支付",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "payment/weixin",
+			"style": {
+				"navigationBarTitleText": "微信支付",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "broadcast/broadcast",
+			"style": {
+				"navigationBarTitleText": "播报",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "stock/stock",
+			"style": {
+				"navigationBarTitleText": "商品进货",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pay/pay",
+			"style": {
+				"navigationBarTitleText": "线上缴费",
+				"backgroundColor": "#eee",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pay/paymentBill/paymentBill",
+			"style": {
+				"navigationBarTitleText": "缴费账单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "kefu/kefu",
+			"style": {
+				"navigationBarTitleText": "客服中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"pageOrientation": "landscape",
+			"path": "promotion/lease",
+			"style": {
+				"navigationBarTitleText": "租赁关系",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "菜商宝",
+		"navigationBarBackgroundColor": "#375cc4",
+		"backgroundTextStyle": "light",
+		"backgroundColor": "#375cc4",
+		"backgroundColorBottom": "#eee"
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#4fab3d",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/home.png",
+			"selectedIconPath": "static/images/home_active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/workbench/workbench",
+			"iconPath": "static/images/discover.png",
+			"selectedIconPath": "static/images/discover_active.png",
+			"text": "工作台"
+		}, {
+			"pagePath": "pages/steelyard/steelyard",
+			"iconPath": "static/images/discover.png",
+			"selectedIconPath": "static/images/discover_active.png",
+			"text": "秤宝王"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/images/discover.png",
+			"selectedIconPath": "static/images/discover_active.png",
+			"text": "我的"
+		}]
+	}
+
+}

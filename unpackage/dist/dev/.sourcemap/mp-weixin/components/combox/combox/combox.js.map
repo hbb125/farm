@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;wEAAA,qBAAmB,8BACnB,sBACA,uI,mDACAA,EAAWC,a","file":"components/combox/combox/combox.js","sourcesContent":["import 'uni-pages';import '@dcloudio/uni-stat';\nimport Vue from 'vue'\nimport Page from './components/combox/combox/combox.vue'\ncreatePage(Page)"],"sourceRoot":""}

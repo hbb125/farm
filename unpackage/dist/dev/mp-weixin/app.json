@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/workbench/workbench",
+    "pages/steelyard/steelyard",
+    "pages/my/my",
+    "pages/login/xiaocong-login/login/login",
+    "pages/login/xiaocong-login/forget/forget",
+    "pages/login/xiaocong-login/register/register"
+  ],
+  "subPackages": [
+    {
+      "root": "goodsPage",
+      "pages": [
+        "myGoods/myGoods",
+        "goodsLibrary/goodsLibrary"
+      ]
+    },
+    {
+      "root": "myPage",
+      "pages": [
+        "modifyMobile/modifyMobile",
+        "aboutUs/aboutUs",
+        "grant/grant",
+        "feedback/feedback",
+        "modifyPwd/modifyPwd",
+        "message/message",
+        "message/messageDetail"
+      ]
+    },
+    {
+      "root": "personalPage",
+      "pages": [
+        "personalInfo/personalInfo",
+        "complaint/complaint",
+        "complaint/complaintDetail"
+      ]
+    },
+    {
+      "root": "workbenchPage",
+      "pages": [
+        "healthCode/healthCode",
+        "promotion/promotion",
+        "payment/payment",
+        "payment/zfb",
+        "payment/weixin",
+        "broadcast/broadcast",
+        "stock/stock",
+        "pay/pay",
+        "pay/paymentBill/paymentBill",
+        "kefu/kefu",
+        "promotion/lease"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "菜商宝",
+    "navigationBarBackgroundColor": "#375cc4",
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#375cc4",
+    "backgroundColorBottom": "#eee"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#4fab3d",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/workbench/workbench",
+        "iconPath": "static/images/discover.png",
+        "selectedIconPath": "static/images/discover_active.png",
+        "text": "工作台"
+      },
+      {
+        "pagePath": "pages/steelyard/steelyard",
+        "iconPath": "static/images/discover.png",
+        "selectedIconPath": "static/images/discover_active.png",
+        "text": "秤宝王"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/discover.png",
+        "selectedIconPath": "static/images/discover_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap4.json"
+}

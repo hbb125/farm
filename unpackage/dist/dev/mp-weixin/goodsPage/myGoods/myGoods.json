@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "上架商品列表",
+  "backgroundColor": "#eee",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "good-list": "/components/good-list/good-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

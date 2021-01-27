@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "关于我们",
+  "backgroundColor": "#eee",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

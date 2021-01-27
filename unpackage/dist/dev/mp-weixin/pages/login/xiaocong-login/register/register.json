@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "注册",
+  "backgroundColor": "#eee",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "picture-tailor": "/components/picture-tailor/picture-tailor"
+  }
+}

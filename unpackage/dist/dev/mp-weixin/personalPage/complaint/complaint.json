@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "投诉处理",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "s-tabs": "/components/s-tabs/s-tabs",
+    "s-tab": "/components/s-tab/s-tab"
+  }
+}
